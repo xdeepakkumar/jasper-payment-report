@@ -44,13 +44,13 @@
 		<field name="claimNumber" class="java.lang.String">
 			<fieldDescription><![CDATA[claimNumber]]></fieldDescription>
 		</field>
-		<field name="paidAmount" class="java.lang.String">
+		<field name="paidAmount" class="java.lang.Double">
 			<fieldDescription><![CDATA[paidAmount]]></fieldDescription>
 		</field>
 	</subDataset>
 	<parameter name="reportNumber" class="java.lang.String"/>
 	<parameter name="dateOfPayment" class="java.lang.String"/>
-	<parameter name="total" class="java.lang.String"/>
+	<parameter name="total" class="java.lang.String" />
 	<parameter name="dataSet" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
 	<queryString>
 		<![CDATA[]]>

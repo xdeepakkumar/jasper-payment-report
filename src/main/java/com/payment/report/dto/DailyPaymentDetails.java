@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @Data
 public class DailyPaymentDetails {
     private String claimNumber;
-    private String paidAmount;
+    private Double paidAmount;
 }
